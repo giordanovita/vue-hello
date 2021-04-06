@@ -20,6 +20,13 @@
             <h1>
                 {{ target }}
             </h1>
+
+            <img v-bind:src="pic" alt="">
+
+            <div class="row"> 
+                <button @click="backSlide">Back</button>
+                <button @click="nextSlide">Next</button>
+            </div>
         </div>
 
     </div>

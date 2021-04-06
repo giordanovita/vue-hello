@@ -9,8 +9,15 @@
     height: 100vh;
     background:linear-gradient(rgb(241, 234, 241), black);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+    margin: auto;
+    font-size: 30px;
     font-weight: bold;
+}
+
+img{
+    width: 500px;
+    height: 370px;
 }
